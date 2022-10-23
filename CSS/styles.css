@@ -739,7 +739,7 @@ ul {
 }
 
 .is-hidden .modal {
-    transform: scale(0.95);
+    transform: scale(0.5);
     transform: translate(-50%, -50%);
 }
 
