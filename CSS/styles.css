@@ -184,6 +184,8 @@ ul {
   fill: var(--color-text-primary);
   text-decoration: none;
 
+  transition: color var(--transition-duration-cubic), 
+  fill var(--transition-duration-cubic);
   /* background-color: red; */
 }
 
@@ -541,7 +543,7 @@ ul {
 
 .portfolio-shadow {
   display: block;
-
+  transition: box-shadow var(--transition-duration-cubic);
 }
 
 .portfolio-shadow:hover,
@@ -728,8 +730,7 @@ ul {
 
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity var(--transition-duration-cubic), 
-    visibility var(--transition-duration-cubic), 
-    tansform var(--transition-duration-cubic);
+    visibility var(--transition-duration-cubic);
 }
 
 .is-hidden {
@@ -756,7 +757,7 @@ ul {
     background-color: #fff;
 
     transform: translate(-50%, -50%);
-    transition: transform var(--transition-duration-cubic)
+    transition: transform var(--transition-duration-cubic);
 }
 
 .btn-modal {
